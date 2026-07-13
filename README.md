@@ -1,19 +1,98 @@
-# Numerical-Methods-Analysis-C-Programming-
-This project is a menu-driven Numerical Methods Analysis application developed in the C programming language. It provides implementations of various numerical algorithms used to solve mathematical and engineering problems. The program allows users to select different numerical methods, enter the required parameters, and obtain approximate solutions with high computational efficiency.
+# Numerical Methods Analysis
 
-The application includes algorithms for root-finding, numerical integration, numerical differentiation, interpolation, matrix operations, and iterative methods. It supports user-defined mathematical functions and performs the necessary calculations dynamically instead of relying on hardcoded expressions.
+A menu-driven Numerical Methods Analysis application developed in C. The project implements fundamental numerical algorithms used in mathematics and engineering to solve equations, perform matrix operations, numerical integration, differentiation, and interpolation.
 
-Key features of the project include:
+## Features
 
-Root-finding methods such as Bisection, Regula-Falsi, and Newton-Raphson.
-Numerical integration using the Trapezoidal and Simpson's methods.
-Numerical differentiation for approximating derivatives.
-Matrix operations including determinant calculation, matrix inversion, and Cholesky decomposition.
-Solving systems of linear equations using the Gauss-Seidel iterative method.
-Newton interpolation for estimating intermediate values from known data points.
-Dynamic memory allocation for efficient matrix and data management.
-User-friendly menu interface for selecting and executing numerical algorithms.
+- Bisection Method
+- Regula-Falsi Method
+- Newton-Raphson Method
+- Numerical Differentiation
+- Trapezoidal Rule
+- Simpson's Rule
+- Newton Interpolation
+- Matrix Inverse Calculation
+- Cholesky Decomposition
+- Gauss-Seidel Method
+- User-defined mathematical functions
+- Menu-driven interface
 
-The project emphasizes modular programming principles by separating each numerical algorithm into individual functions, improving readability, maintainability, and code reusability. It also incorporates input validation and error handling to ensure reliable execution for different user inputs.
+## Technologies Used
 
-This application serves as an educational tool for understanding the implementation and practical application of numerical methods while demonstrating programming concepts such as pointers, dynamic memory management, mathematical expression evaluation, and algorithm design in C.
+- C Programming Language
+- Dynamic Memory Allocation (`malloc`, `calloc`, `realloc`, `free`)
+- Mathematical Algorithms
+- Matrix Operations
+- Pointers
+- Structures
+- Modular Programming
+
+## Project Structure
+
+```
+main.c
+README.md
+```
+
+## Compilation
+
+Using GCC:
+
+```bash
+gcc main.c -lm -o NumericalMethods
+```
+
+> **Note:** The `-lm` flag links the math library.
+
+## Run
+
+Linux/macOS:
+
+```bash
+./NumericalMethods
+```
+
+Windows:
+
+```bash
+NumericalMethods.exe
+```
+
+## Algorithms Implemented
+
+- Root Finding Algorithms
+  - Bisection
+  - Regula-Falsi
+  - Newton-Raphson
+
+- Numerical Integration
+  - Trapezoidal Rule
+  - Simpson's Rule
+
+- Numerical Differentiation
+
+- Matrix Operations
+  - Matrix Inverse
+  - Cholesky Decomposition
+  - Gauss-Seidel Iteration
+
+- Interpolation
+  - Newton Interpolation
+
+## Learning Objectives
+
+This project demonstrates:
+
+- Numerical analysis algorithms
+- Scientific computing in C
+- Matrix computations
+- Dynamic memory management
+- Pointer manipulation
+- Mathematical programming
+- Modular software design
+
+## Author
+
+**Musab Akten**  
+Computer Engineering Student  
+Yıldız Technical University
