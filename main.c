@@ -140,7 +140,7 @@ int main(){
         nxn=allocatematris(matris);
         inv=allocatematris(matris);
         if(nxn==NULL||inv==NULL){
-        	printf("\n!!!Dynamic Memort Allocatiýn Failed!!!!!\n");
+        	printf("\n!!!Dynamic Memort AllocatiÃ½n Failed!!!!!\n");
 		}
 		for(i=0;i<matris;i++){
 			for(j=0;j<matris;j++){
